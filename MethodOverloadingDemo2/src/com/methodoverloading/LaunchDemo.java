@@ -133,9 +133,9 @@ public class LaunchDemo
 		
 		D d = new D();
 	
-		d.m1();         //var-args metho invokes
+		d.m1();         //var-args method invokes
 		d.m1(10,20);    //var-args method invokes
-		//compilor will always gives the least priority to the var-args if exact method is not there.
+		//compiler will always gives the least priority to the var-args if exact method is not there.
 		d.m1(10);       //both are matched but general method invokes because old version of method gets the chance first compared to new concept(var-args concept).
 		
 		E e = new E();
